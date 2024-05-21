@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
 
 const dev_db_url =
-  "mongodb+srv://urosculibrk:kengur123@cluster0.5oefklu.mongodb.net/local_library?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://urosculibrk:kengur123@cluster0.5oefklu.mongodb.net/local_library_production?retryWrites=true&w=majority&appName=Cluster0";
 
 const mongoDB = process.env.MONGODB_URI || dev_db_url;
 
